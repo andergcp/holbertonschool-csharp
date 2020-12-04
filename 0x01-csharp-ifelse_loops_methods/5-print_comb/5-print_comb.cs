@@ -12,6 +12,7 @@ namespace _4_print_hexa
                 Console.Write($"{sep}{i:D2}");
                 sep = ", ";
             }
+            Console.Write("\n");
         }
     }
 }
