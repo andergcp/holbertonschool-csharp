@@ -7,7 +7,7 @@ namespace _4_print_hexa
         static void Main(string[] args)
         {
             for (var i = 0; i < 99; i++)
-                Console.Write("{0} = 0x{0:x} \n", i);
+                Console.Write("{0} = 0x{0:x}\n", i);
         }
     }
 }
