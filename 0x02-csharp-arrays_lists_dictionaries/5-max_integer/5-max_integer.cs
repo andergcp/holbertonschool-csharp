@@ -14,7 +14,7 @@ class List
         }
         else
         {
-            int max = 0;
+            int max = int.MinValue;
             for (int i = 0; i < len; i++)
             {
                 if (myList[i] > max)
