@@ -9,7 +9,7 @@ class Dictionary
         int maxValue = 0;
         foreach (var item in myList)
         {
-            if (item.Value > maxValue)
+            if (item.Value >= maxValue)
             {
                 maxKey = item.Key;
                 maxValue = item.Value;
